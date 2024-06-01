@@ -10,5 +10,5 @@ async function getData(){
 
 document.getElementById('button').addEventListener('click',async() =>{
     const data = await getData()
-    document.getElementById('h').innerHTML = data
+    document.getElementById('h').innerHTML = data.message
 })
