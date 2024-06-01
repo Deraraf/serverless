@@ -1,6 +1,6 @@
 async function getData(){
  try {
-    let res = await fetch("https://serverless-eight-peach.vercel.app/")
+    let res = await fetch("https://serverless-eight-peach.vercel.app/api/server")
     let data = res.json()
     return data
  } catch (error) {
